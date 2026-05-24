@@ -18,11 +18,11 @@ Machine learning based spam message classifier.
 
 ## Spam Prediction
 
-![Spam Output](assets/images/spam-output.png)
+![Spam Output](assets/images/spam-output.jpg)
 
 ## Not Spam Prediction
 
-![Not Spam Output](assets/images/not-spam-output.png)
+![Not Spam Output](assets/images/not-spam-output.jpg)
 
 ## Author
 
