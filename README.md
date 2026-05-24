@@ -32,9 +32,21 @@ python app.py
 ```
 
 ## Output
+
 The system predicts whether the entered message is:
+
 - Spam
 - Not Spam
+
+### Spam Message Detection
+
+![Spam Detection](assets/images/spam-detection.jpg)
+
+---
+
+### Not Spam Message Detection
+
+![Not Spam Detection](assets/images/not-spam-detection.jpg)
 
 ## Author
 KRUSHNA SRI KONDABATTINI
