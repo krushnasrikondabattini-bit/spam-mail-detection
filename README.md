@@ -1,40 +1,52 @@
-# 📧 Spam Mail Detection System
+# Spam Mail Detection
 
-Machine learning based spam email detection system that classifies messages as Spam or Not Spam.
+A machine learning based web application that detects whether an email or message is spam or not spam using Natural Language Processing (NLP).
 
----
+## Features
+- Spam email/message detection
+- Machine learning prediction model
+- Simple Flask web interface
+- Fast text classification
 
-## 🚀 Features
-
-- Detects spam emails/messages
-- Machine learning classification
-- User-friendly interface
-- Fast prediction results
-- Text preprocessing and vectorization
-
----
-
-## 🛠️ Technologies Used
-
+## Tech Stack
 - Python
-- Scikit-learn
-- Pandas
-- NumPy
 - Flask
-- HTML
-- CSS
+- Scikit-learn
+- NLP
+- HTML/CSS
+
+## Project Files
+- `app.py` → Flask web application
+- `train_model.py` → Model training script
+- `model.pkl` → Trained ML model
+- `vectorizer.pkl` → Text vectorizer
+- `spam.csv` → Dataset
+
+## How to Run
+
+```bash
+git clone https://github.com/krushnasrikondabattini-bit/spam-mail-detection.git
+cd spam-mail-detection
+pip install flask pandas scikit-learn
+python app.py
+```
+
+## Output
+
+The system predicts whether the entered message is:
+
+- Spam
+- Not Spam
+
+### Spam Message Detection
+
+![Spam Detection](assets/images/spam-detection.jpg)
 
 ---
 
-## 📂 Project Structure
+### Not Spam Message Detection
 
-```text
-spam-mail-detection/
-│
-├── assets/
-│   └── images/
-│
-├── model/
-├── app.py
-├── requirements.txt
-└── README.md
+![Not Spam Detection](assets/images/not-spam-detection.jpg)
+
+## Author
+KRUSHNA SRI KONDABATTINI
